@@ -179,5 +179,20 @@ footer {
   text-align: center;
   padding: 20px;
   background: #0f172a;
-  color: white;
+  color: white;  
+.footer-links {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #c7d2fe;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #4fd1c5;
+}
+
 }
