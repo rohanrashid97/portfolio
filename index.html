@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rohan Rashid | Software, ML & IoT Engineer</title>
+  <title>Rohan Rashid | ML & IoT Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,9 @@
   <div class="nav-content">
     <h2>Rohan Rashid</h2>
     <div class="nav-links">
+      <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
-      <a href="#about">About</a>
       <a href="#contact">Contact</a>
       <a href="https://github.com/rohanrashid97" target="_blank" class="btn-github">GitHub</a>
     </div>
@@ -27,16 +27,15 @@
 <section class="hero">
   <div class="hero-content">
     <div class="profile-img-container">
-      <img src="profile.jpg" alt="Rohan Rashid">
+        <img src="profile.jpg" alt="Rohan Rashid">
     </div>
     <h1>Hi, I'm <span class="highlight">Rohan Rashid</span></h1>
     <p class="designation">
       Computer Science Graduate <br>
-      Software Development • Machine Learning • IoT
+      Machine Learning • Deep Learning • IoT Specialist
     </p>
-    <p class="tagline">
-      Building practical software systems and real-world intelligent solutions.
-    </p>
+    <p class="tagline">Building intelligent systems that solve real-world problems.</p>
+
     <div class="hero-btn">
       <a href="#projects" class="btn-primary">View My Work</a>
       <a href="#contact" class="btn-outline">Contact Me</a>
@@ -44,34 +43,59 @@
   </div>
 </section>
 
-<section class="container bg-light" id="skills">
+<section class="container" id="about">
   <div class="section-header">
-    <h2>Technical Skills</h2>
+    <h2>About Me</h2>
     <div class="line"></div>
   </div>
+  <div class="about-content">
+    <p>
+      I am a Computer Science graduate passionate about data-driven technologies. 
+      My expertise lies in building <strong>Machine Learning models</strong> and developing 
+      <strong>IoT solutions</strong>. I enjoy turning complex data into actionable insights 
+      and am currently looking for opportunities to contribute to innovative teams as an intern or junior engineer.
+    </p>
+  </div>
+</section>
 
+<section class="container bg-light" id="skills">
+  <div class="section-header">
+    <h2>Technical Expertise</h2>
+    <div class="line"></div>
+  </div>
+  
   <div class="skills-wrapper">
     <div class="skill-category">
-      <h3>Programming</h3>
+      <h3>Machine Learning</h3>
       <div class="skills">
-        <span>C</span><span>C++</span><span>Python</span><span>Java</span>
+        <span>Python</span>
+        <span>Scikit-Learn</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>K-Means</span>
+        <span>Random Forest</span>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <h3>Deep Learning & IoT</h3>
+      <div class="skills">
+        <span>CNN</span>
+        <span>LSTM</span>
+        <span>OpenCV</span>
+        <span>Arduino</span>
+        <span>IoT Sensors</span>
       </div>
     </div>
 
     <div class="skill-category">
-      <h3>Systems & Technologies</h3>
+      <h3>Web & Tools</h3>
       <div class="skills">
-        <span>Software Development</span>
-        <span>Distributed Systems</span>
-        <span>Machine Learning</span>
-        <span>IoT</span>
-      </div>
-    </div>
-
-    <div class="skill-category">
-      <h3>Tools</h3>
-      <div class="skills">
-        <span>Git</span><span>GitHub</span><span>Firebase</span><span>VS Code</span>
+        <span>Streamlit</span>
+        <span>HTML/CSS</span>
+        <span>MySQL</span>
+        <span>Git & GitHub</span>
+        <span>VS Code</span>
       </div>
     </div>
   </div>
@@ -79,28 +103,124 @@
 
 <section class="container" id="projects">
   <div class="section-header">
-    <h2>Selected Projects</h2>
+    <h2>Featured Projects</h2>
     <div class="line"></div>
   </div>
 
   <div class="projects">
-
+    
     <div class="card">
       <div class="card-header">
-        <h3>🌦️ Smart Climate-Responsive Cloth Drying System</h3>
-        <span class="badge iot">IoT</span>
+        <h3>📉 Telco Churn Prediction</h3>
+        <span class="badge ml">ML</span>
       </div>
-      <p>
-        Real-world IoT system that automatically protects clothes based on
-        environmental conditions using Firebase cloud monitoring and control.
-      </p>
+      <p>An End-to-End Web App predicting customer churn using Random Forest. Features interpretability using SHAP values.</p>
       <div class="tech-stack">
-        <span>ESP8266</span><span>Firebase</span><span>IoT Sensors</span>
+        <span>Python</span><span>Streamlit</span><span>SHAP</span>
       </div>
-      <a href="https://github.com/rohanrashid97/Smart-Climate-Responsive-Cloth-Drying-System"
-         target="_blank" class="card-link">View Project →</a>
+      <a href="https://github.com/rohanrashid97/Customer_Churn_Prediction_Webapp" target="_blank" class="card-link">View Project →</a>
     </div>
 
     <div class="card">
       <div class="card-header">
-        <h3>🧠 Face Emotion Detection (Deskto
+        <h3>🎓 Student Classifier</h3>
+        <span class="badge ml">ML</span>
+      </div>
+      <p>A machine learning model to classify student performance and predict academic outcomes based on demographic data.</p>
+      <div class="tech-stack">
+        <span>Scikit-Learn</span><span>Pandas</span><span>Classification</span>
+      </div>
+      <a href="https://github.com/rohanrashid97/Student-Performance-Classifier" target="_blank" class="card-link">View Project →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>🛒 Customer Segmentation</h3>
+        <span class="badge ml">Unsupervised</span>
+      </div>
+      <p>Business analytics tool grouping customers using K-Means Clustering & RFM Analysis to identify high-value clients.</p>
+      <div class="tech-stack">
+        <span>K-Means</span><span>Data Analysis</span><span>Python</span>
+      </div>
+      <a href="https://github.com/rohanrashid97/customer-segmentation-app" target="_blank" class="card-link">View Project →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>😐 Facial Emotion AI</h3>
+        <span class="badge dl">Deep Learning</span>
+      </div>
+      <p>Real-time CNN-based system capable of recognizing distinct human facial emotions from video feeds.</p>
+      <div class="tech-stack">
+        <span>CNN</span><span>OpenCV</span><span>Keras</span>
+      </div>
+      <a href="https://github.com/rohanrashid97/facial-emotion-detection-rohan97" target="_blank" class="card-link">View Project →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>🌧️ Smart Cloth Drying</h3>
+        <span class="badge iot">IoT</span>
+      </div>
+      <p>Automated hardware system with rain detection sensors to protect clothes automatically during bad weather.</p>
+      <div class="tech-stack">
+        <span>Arduino</span><span>C++</span><span>Sensors</span>
+      </div>
+      <a href="https://github.com/rohanrashid97/IoT-Automated-Rain-Protected-Cloth-Drying-System" target="_blank" class="card-link">View Project →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>🦟 Dengue Prediction</h3>
+        <span class="badge dl">Data Science</span>
+      </div>
+      <p>Advanced system to predict dengue outbreaks by analyzing weather patterns and historical data.</p>
+      <div class="tech-stack">
+        <span>LSTM</span><span>Time Series</span><span>Python</span>
+      </div>
+      <a href="https://github.com/rohanrashid97/An-advanced-Dengue-Prediction-System-with-ML-DL" target="_blank" class="card-link">View Project →</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2>Let's Connect</h2>
+    <div class="line line-center"></div>
+    <p>Open for Internships and Junior Roles in ML/Data Science/IoT.</p>
+
+    <div class="contact-grid">
+      <a href="mailto:rohanrashid.cse@gmail.com" class="contact-box">
+        <div class="icon-box">📧</div>
+        <div class="text">
+          <span class="label">Email Me</span>
+          <span class="value">rohanrashid.cse@gmail.com</span>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/rohan-rashid/" target="_blank" class="contact-box">
+         <div class="icon-box">🔗</div>
+        <div class="text">
+          <span class="label">LinkedIn</span>
+          <span class="value">linkedin.com/in/rohan-rashid</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/rohanrashid97" target="_blank" class="contact-box">
+         <div class="icon-box">🐙</div>
+        <div class="text">
+          <span class="label">GitHub</span>
+          <span class="value">github.com/rohanrashid97</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Rohan Rashid. Building the future with data.</p>
+</footer>
+
+</body>
+</html>
